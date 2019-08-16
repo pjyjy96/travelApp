@@ -101,9 +101,9 @@ public render() {
 					<Row className="dark-back post-pad top-board border" >
 						<Col md={7}>
 							<div><b>
-								Share your foodie experiences with everyone on this platform!<br/>
-								Gather your friends and LET'S GO THERE!<br/><br/>
-								Simply log in using your Webcam (Admin required), Google, or Facebook account.
+								Share your travel photos with everyone on this website!<br/>
+								You are all set. WHERE TO NEXT?!<br/><br/>
+								Simply log in using your Webcam (Admin required), Google accounts.
 								</b>
 							</div>
 							<Travel travelPosts={this.state.travelPosts} fetchTravelPosts={this.fetchTravelPosts}/>
@@ -132,7 +132,7 @@ public render() {
 						<small className="form-text text-muted">How good was it?</small>
 					</div>
 					<div className="form-group">
-						<label>Show us some photos!</label>
+						<label>Show us photos from your travel!</label>
 						<input type="file" onChange={this.handleFileUpload} className="form-control-file" id="travel-image-input" />
 					</div>
 
