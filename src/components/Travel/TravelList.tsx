@@ -20,7 +20,7 @@ export default class TravelList extends React.Component<IProps,{}>{
 				<div className="pad">
 					<Form inline={true}>
 						<FormGroup>
-							<FormControl className="search-width" type="text" id="search-tag-textbox" placeholder="Where do you want to go?" />
+							<FormControl className="search-width" type="text" id="search-tag-textbox" placeholder="Where to next?" />
 						</FormGroup>{' '}
 						<Button onClick={this.searchByTag}>Search</Button>
 					</Form>
