@@ -29,7 +29,7 @@ export default class PostList extends React.Component<IProps, IState> {
 						</div>
 						<span className="text">{post.tags}</span>
 						<br/>
-						<div className="fb-share-button" data-href="https://travelphoto.azurewebsites.net/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href={"https://www.facebook.com/sharer/sharer.php?u=" + "https://www.google.com"} className="fb-xfbml-parse-ignore">Share</a></div>
+						<div className="fb-share-button" data-href="https://travelnexto.azurewebsites.net" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" className="fb-xfbml-parse-ignore">Share</a></div>
 						<Button onClick={this.downloadTravel.bind(this, post.url)} >Download</Button>
 						<br/>
 						<span>{post.uploaded.substring(0, 10)}</span>
